@@ -18,9 +18,19 @@ table{
     border-left: none;
     border-right: none;
 }
+tr>th{
+    padding:5px;
+}
 td{
     border: 1px solid black;
     border-left:none;
     border-right: none;
-    padding:3px;
+    padding:5px;
+}
+
+tr>td{
+    text-align: center;
+}
+.content1,.content2,.content3{
+    text-align: left;
 }

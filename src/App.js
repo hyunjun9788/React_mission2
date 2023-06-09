@@ -16,19 +16,19 @@ function App() {
                 <tbody>
                 <tr>
                     <td>1</td>
-                    <td>친절한 대응 감사합니다!</td>
+                    <td className='content1'>친절한 대응 감사합니다!</td>
                     <td>익명</td>
                     <td>2023-05-27</td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>질문입니다.</td>
+                    <td className='content2'>질문입니다.</td>
                     <td>익명</td>
                     <td>2023-05-29</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>배송 문의 드립니다.</td>
+                    <td className='content3'>배송 문의 드립니다.</td>
                     <td>익명</td>
                     <td>2023-06-07</td>
                 </tr>
