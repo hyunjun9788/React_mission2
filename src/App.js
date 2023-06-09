@@ -1,18 +1,12 @@
 import './App.css';
+import Thead from "./Thead";
 
 function App() {
     return (
         <div className='container'>
             <div className='title'>Q&A</div>
             <table>
-                <thead>
-                <tr>
-                    <th>No</th>
-                    <th>제목</th>
-                    <th>글쓴이</th>
-                    <th>날짜</th>
-                </tr>
-                </thead>
+                <Thead/>
                 <tbody>
                 <tr>
                     <td>1</td>
