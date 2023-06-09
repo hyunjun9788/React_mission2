@@ -6,12 +6,21 @@
     height:100vh;
 
 }
-
-.header{
+.title{
     font-size:30px;
     font-weight: bold;
+    padding-bottom: 50px;
 }
-.table{
-    display:flex;
-
+table{
+    width: 80%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+}
+td{
+    border: 1px solid black;
+    border-left:none;
+    border-right: none;
+    padding:3px;
 }

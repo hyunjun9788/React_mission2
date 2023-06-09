@@ -1,38 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="container">
-    <div className='header'>Q&A</div>
-      <div className='table'>
-      <div className='no'>
-        <div>No</div>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-      </div>
-      <div className='title'>
-        <div>제목</div>
-        <div>친절한 대응 감사합니다!</div>
-        <div>질문입니다.</div>
-        <div>배송 문의 드립니다.</div>
-      </div>
-        <div className='user'>
-          <div>글쓴이</div>
-          <div>익명</div>
-          <div>익명</div>
-          <div>익명</div>
+    return (
+        <div className='container'>
+            <div className='title'>Q&A</div>
+            <table>
+                <thead>
+                <tr>
+                    <th>No</th>
+                    <th>제목</th>
+                    <th>글쓴이</th>
+                    <th>날짜</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>친절한 대응 감사합니다!</td>
+                    <td>익명</td>
+                    <td>2023-05-27</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>질문입니다.</td>
+                    <td>익명</td>
+                    <td>2023-05-29</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>배송 문의 드립니다.</td>
+                    <td>익명</td>
+                    <td>2023-06-07</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
-        <div className='date'>
-          <div>날짜</div>
-          <div>2023-05-27</div>
-          <div>2023-05-29</div>
-          <div>2023-06-07</div>
-        </div>
-      </div>
-    </div>
-  );
+    )
 }
 
 export default App;
