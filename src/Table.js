@@ -5,7 +5,7 @@ function Table(){
     return(
         <table>
             <Thead/>
-            <Tbody/>
+            <Tbody name='익명'/>
         </table>
     )
 }
