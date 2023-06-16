@@ -1,6 +1,6 @@
-import Thead from "./Thead";
-import Tbody from "./Tbody";
-
+import Thead from "../Tbody/Thead";
+import Tbody from "../Tbody/Tbody";
+import './Table.css'
 function Table(){
     return(
         <table>

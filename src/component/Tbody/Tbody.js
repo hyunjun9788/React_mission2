@@ -1,5 +1,5 @@
 import TbodyRow from "./TbodyRow";
-
+import './Tbody.css'
 function Tbody(props){
     return(
             <tbody>

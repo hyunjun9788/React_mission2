@@ -1,3 +1,5 @@
+import './SearchWrite.css'
+
 function SearchWrite(){
     return (
         <div className='search-write'>

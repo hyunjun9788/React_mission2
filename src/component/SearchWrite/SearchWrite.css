@@ -1,0 +1,20 @@
+.search-write{
+    margin-top: 30px;
+    width:900px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.search{
+    width:200px;
+}
+
+.write{
+    margin-left: 8px;
+    border-radius: 30px;
+    padding:5px 15px;
+    background-color: black;
+    color:white
+
+}

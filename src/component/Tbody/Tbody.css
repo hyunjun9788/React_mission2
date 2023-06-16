@@ -1,0 +1,28 @@
+tr > th {
+    padding: 5px;
+}
+
+td {
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+}
+
+tr > td {
+    text-align: center;
+}
+
+.content {
+    text-align: left;
+}
+
+.name {
+    font-size: 15px;
+    color: gray
+}
+
+.date {
+    color: gray;
+    font-size: 15px;
+}

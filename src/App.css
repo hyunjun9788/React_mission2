@@ -7,66 +7,7 @@
 
 }
 
-.title {
-    font-size: 30px;
-    font-weight: bold;
-    padding-bottom: 50px;
-}
 
-table {
 
-    width: 900px;
-    border: 1px solid #444444;
-    border-collapse: collapse;
-    border-left: none;
-    border-right: none;
-}
 
-tr > th {
-    padding: 5px;
-}
 
-td {
-    border: 1px solid black;
-    border-left: none;
-    border-right: none;
-    padding: 5px;
-}
-
-tr > td {
-    text-align: center;
-}
-
-.content {
-    text-align: left;
-}
-
-.name {
-    font-size: 15px;
-    color: gray
-}
-
-.date {
-    color: gray;
-    font-size: 15px;
-}
-.search-write{
-    margin-top: 30px;
-    width:900px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-}
-
-.search{
-    width:200px;
-}
-
-.write{
-    margin-left: 8px;
-    border-radius: 30px;
-    padding:5px 15px;
-    background-color: black;
-    color:white
-
-}
