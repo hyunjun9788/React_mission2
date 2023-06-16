@@ -1,7 +1,7 @@
 import './App.css';
-import Title from "./Title";
-import SearchWrite from "./SearchWrite";
-import Table from "./Table";
+import Title from "./component/Title";
+import SearchWrite from "./component/SearchWrite";
+import Table from "./component/Table";
 
 function App() {
     return (
